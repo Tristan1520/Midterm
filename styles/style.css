@@ -1,0 +1,61 @@
+@import url('./layout.css');
+
+/*main nav*/
+header> nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+   
+   
+}
+
+header > nav img {
+    width: 50px;
+    padding: 10px;
+}
+
+/*H1*/
+header > h1{
+    font-size: 3.4em;
+    text-align: center;
+}
+
+/*Footer*/
+footer {
+    padding-top: 1em;
+
+}
+
+border {
+   border-style: solid;
+   
+   width: 400px;
+   
+   
+   margin: 1em;
+   border-color: #95a5a6;
+   
+}
+
+aside {
+    border: 1px solid #95a5a6
+}
+
+aside> header{
+    background: #34495e;
+    text-align: center;
+    font-size: 2.1em;
+    color: #ecf0f1;
+}
+
+aside> footer{
+    background:#34495e ;
+    text-align: center;
+    font-size: 2.1em;
+    color: #ecf0f1;
+}
+
+figure {
+    float: left;
+    padding-right: 1em;
+}
